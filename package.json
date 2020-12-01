@@ -1,0 +1,19 @@
+{
+  "name": "skynet",
+  "version": "1.0.0",
+  "description": "Skynet Node.js API on Docker",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@aws/dynamodb-data-mapper-annotations": "^0.7.3",
+    "aws-sdk": "^2.800.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {}
+}
