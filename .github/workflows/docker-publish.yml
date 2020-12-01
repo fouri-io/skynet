@@ -15,7 +15,7 @@ on:
 
 env:
   # TODO: Change variable to your image's name.
-  IMAGE_NAME: fouri/skynet
+  IMAGE_NAME: skynet
 
 jobs:
   # Run tests.
