@@ -6,4 +6,6 @@ VERSION=1.0
 DOCKER_REPO=fouri/skynet
 GIT_COMMIT=$(git rev-parse --short HEAD)
 
+echo "Tagging and pushing:  " $DOCKER_REPO:$VERSION.$GIT_COMMIT
 docker tag $IMAGE_NAME $DOCKER_REPO:$VERSION.$GIT_COMMIT
+docker push $DOCKER_REPO:$VERSION.$GIT_COMMIT
