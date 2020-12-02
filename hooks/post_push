@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 VERSION=1.0
 DOCKER_REPO=fouri/skynet
 GIT_COMMIT=$(git rev-parse --short HEAD)
