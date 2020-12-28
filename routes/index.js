@@ -35,6 +35,11 @@ router.get("/missions", (req, res, next) => {
 });
 
 /* DynamoDB Calls */
+
+router.get("/seedTargets", (req,res, next) => {
+  dao.seedTargets(req, res);
+});
+
 router.get("/targets", (req, res, next) => {
   dao.getTargets(req, res);
 });
